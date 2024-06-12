@@ -4,23 +4,23 @@ Trabalho desenvolvido para a Disciplina de Projeto e Análise de Algorítimos
  Aplicação de Algoritmo de busca A* em problema do Labirinto
 
 
-1st Esdrás A. Santos
+1º Esdrás A. Santos
 Vitória da Conquista , Bahia
 esdrasalvesdossantos2002@gmail.com
 
-2nd Gabriel B. Anjos
+2º Gabriel B. Anjos
 Vitória da Conquista , Bahia
 gabrielbarrosba@gmail.com
 
-3rd José Henrique F. O. Soares
+3º José Henrique F. O. Soares
 Vitória da Conquista , Bahia
 jhferraz70@gmail.com
 
-4th Luiz Felipe S. Carvalho
+4º Luiz Felipe S. Carvalho
 Vitória da Conquista , Bahia
 lipecarvalholink@gmail.com
 
-5th Rafael A. Santos
+5º Rafael A. Santos
 Vitória da Conquista , Bahia
 rafaelowki@gmail.com
 
