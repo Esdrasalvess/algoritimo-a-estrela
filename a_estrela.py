@@ -9,20 +9,19 @@ Função base do algorítomo a* f(n) = g(n) - h(n)
 
 '''
 # Pedindo a linha e coluna do ponto de partida 
-cord_x_str = input("digite a linha: ")
+cord_x_str = input("Digite a linha: ")
 cord_x = int(cord_x_str)
 
 cord_y_str = input("digite a coluna: ")
 cord_y = int(cord_y_str)
 
-#Inicializando o mapa,chama o mapa salvo  cria  o "personagen"
+#Inicializando o mapa,chama o mapa salvo e cria  o "personagen"
 mapa = maze(11,11)
 mapa.CreateMaze(1,6, loadMaze="maze--2024-06-12--10-14-55.csv")  
 
 desbravador = agent(mapa, cord_x,cord_y, filled=True, footprints=True)
 
-
-destino = (1,6) # tem que ser o mesmo que colocar lá de cima 
+destino = (1,6) # tem que ser o mesmo que colocar lá em baixo 
 
 # função para calcular o h(n) (Quantos passos faltam para chegar ao destino)
 def h(posicao, destino):
@@ -35,7 +34,6 @@ def h(posicao, destino):
     return abs(coluna_posi - coluna_destino) + abs(linha_posi-linha_destino) # abs para mostrar que é pra retornar valores absolutos
 
 # função para calcular o a*
-
 
 def a_estrela(mapa):
     # Cria o labirinto com todos os f(n) com valores infinitos
