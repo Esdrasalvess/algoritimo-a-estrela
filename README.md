@@ -62,15 +62,15 @@ Para obter uma representação gráfica do caminho percorrido pelo algoritmo no 
 
 O pseudocódigo do algoritmo A* pode ser descrito da seguinte forma:
 
-Caminha a partir da primeira casa explorando os vizinhos
-    Só vai poder ir se:
-        Não ter parede
-        Se não ter parede:
-            Calcula o f(n) dos vizinhos
-            Se o f(n_atual) < f(n_anterior):
-                O f(n_atual) passa a ser o principal, substituindo o antigo é claro
-                Para escolher o caminho para seguir ele tem:
-                    O menor f(n)
+Caminha a partir da primeira casa explorando os vizinhos >
+Só vai poder ir se: >
+   Não ter parede >
+   Se não ter parede: >
+       Calcula o f(n) dos vizinhos >
+       Se o f(n_atual) < f(n_anterior): >
+          O f(n_atual) passa a ser o principal, substituindo o antigo é claro >
+          Para escolher o caminho para seguir ele tem: >
+             O menor f(n)
 
                     
 No entanto, o projeto pode ser facilmente adaptado às necessidades do usuário, permitindo a modificação de diversos parâmetros, como tamanho do mapa, posição de destino.
