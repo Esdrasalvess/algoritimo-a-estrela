@@ -1,3 +1,4 @@
+# Programa genérico que gera um labirinto aleatório 
 from pyamaze import maze,agent
 from queue import PriorityQueue
 
@@ -98,8 +99,8 @@ def a_estrela(mapa):
 
 
 
-    #Construindo o percurso 
-    percurso = []
+    # Onde constroi o percurso
+    percurso = []  
     posicao = destino
     while posicao:
         percurso.append(posicao)
